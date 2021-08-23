@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(184, 178, 178);
+    padding: 10px;
+}
+h1, p {
+    margin: 15px;
+    padding: 10px;
+}
+h1 {
+    font-size: 3rem;
+}
+p {
+    word-spacing: 10px;
+}
