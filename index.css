@@ -7,6 +7,10 @@ body {
     background: rgb(184, 178, 178);
     padding: 10px;
 }
+a {
+    text-decoration: none;
+    color: white;
+}
 h1, p {
     margin: 15px;
     padding: 10px;
@@ -17,3 +21,52 @@ h1 {
 p {
     word-spacing: 10px;
 }
+nav {
+    height: 60px;
+    background: rgb(54, 35, 35);
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    list-style: none;
+    margin-right: 10px;
+
+}
+ul li{
+    display: inline-block;
+    margin: 0 10px;
+
+}
+ul li a {
+    text-decoration: none;
+    padding: 2px 7px;
+    color: white;
+    font-size: 2rem;
+
+
+}
+ul li a:hover {
+    border: 1px solid white;
+    border-radius: 10px;
+} 
+#logo {
+    font-size: 32px;
+    margin-left: 10px;
+    
+    
+
+}
+span {
+    color:rgb(230, 92, 13);
+    font-size: 40px;
+}
+#logo:hover {
+    background: green;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding:0 5px;
+}
+
+
+
